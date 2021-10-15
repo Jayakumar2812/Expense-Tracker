@@ -42,7 +42,6 @@ const  App = (props)=> {
     <div>
       <NewExpense onAddExpense = {addExpenseHandler}/>
       <Expenses items={expenses}/>
-      <p> this is also visible</p>
     </div>
   );
 }
